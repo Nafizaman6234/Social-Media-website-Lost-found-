@@ -37,8 +37,7 @@ CREATE TABLE `admins` (
 -- Dumping data for table `admins`
 --
 
-INSERT INTO `admins` (`id`, `email`, `password`) VALUES
-(1, 'nafizaman6234@gmail.com', 'zaman6234');
+
 
 -- --------------------------------------------------------
 
@@ -58,10 +57,7 @@ CREATE TABLE `posts` (
 -- Dumping data for table `posts`
 --
 
-INSERT INTO `posts` (`post_id`, `user_id`, `description`, `image_path`, `created_at`) VALUES
-(10, 1, 'vsahbv', 'uploads/Screenshot (5).png', '2024-04-24 15:13:29'),
-(21, 1, 'rrgwertrg', 'uploads/Screenshot (41).png', '2024-06-30 17:59:19'),
-(22, 1, 'this is my final product', 'uploads/Screenshot (28).png', '2024-06-30 18:09:22');
+
 
 -- --------------------------------------------------------
 
@@ -80,15 +76,11 @@ CREATE TABLE `user_info` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `user_info`
---
 
-INSERT INTO `user_info` (`ID`, `firstname`, `lastname`, `email`, `student_id`, `department`, `password`) VALUES
-(1, 'nafi', 'zaman', 'nafizaman6234@gmail.com', 2147483647, 'c.s.e.', '$2y$10$svLn808FrAHYJHTTGrVB8OOIQJNapjDIsJ4lnxq8ZvuJG3QDimYea');
+
 
 --
--- Indexes for dumped tables
---
+
 
 --
 -- Indexes for table `admins`
